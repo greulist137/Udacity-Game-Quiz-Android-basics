@@ -5,13 +5,96 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="21dp"
-        android:text="Hello World!"
+        android:layout_marginTop="16dp"
+        android:text="Question 1"
         android:layout_marginLeft="16dp"
-/>
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:text="Question 2"
+        android:layout_marginLeft="16dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:text="Question 3"
+        android:layout_marginLeft="16dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:text="Question 4"
+        android:layout_marginLeft="16dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:text="Question 5"
+        android:layout_marginLeft="16dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:text="Question 6"
+        android:layout_marginLeft="16dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:text="Question 7"
+        android:layout_marginLeft="16dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:text="Question 8"
+        android:layout_marginLeft="16dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:text="Question 9"
+        android:layout_marginLeft="16dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:text="Question 10"
+        android:layout_marginLeft="16dp"
+        />
+
 
 </LinearLayout>
