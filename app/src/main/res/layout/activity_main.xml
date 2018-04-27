@@ -9,28 +9,31 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="21dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
+        android:textStyle="bold"
         android:text="Question 1" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="21dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
+
         android:layout_marginTop="16dp"
         android:text="Which of the following is NOT a ghost from the original Pac-Man? Inky (Winky) Blinky Clyde" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="21dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
+        android:textStyle="bold"
         android:text="Question 2" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="21dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:text="Which of the following is a genuine 'Pokémon' type? (Dark) Earth Air Light" />
@@ -38,14 +41,15 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="21dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
+        android:textStyle="bold"
         android:text="Question 3" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="21dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:text="Under what name did Mario debut in 1981's 'Donkey Kong'? Plumberman Mario Luigi (Jumpman)" />
@@ -53,14 +57,15 @@
 
     <TextView
     android:layout_width="wrap_content"
-    android:layout_height="21dp"
+    android:layout_height="wrap_content"
     android:layout_marginLeft="16dp"
     android:layout_marginTop="16dp"
+        android:textStyle="bold"
     android:text="Question 4" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="21dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:text="Which Nintendo console was part of the 'sixth generation' of video game consoles along with the Sony Playstation 2 and the Microsoft Xbox? Nintendo 64 Wii (Gamecube) SNES" />
@@ -68,19 +73,20 @@
 
     <TextView
     android:layout_width="wrap_content"
-    android:layout_height="21dp"
+    android:layout_height="wrap_content"
     android:layout_marginLeft="16dp"
     android:layout_marginTop="16dp"
+        android:textStyle="bold"
     android:text="Question 5" />
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="21dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:text="Which of the following is NOT a game mode in 'Minecraft'?" />
 
 
-    
+
 
 </LinearLayout>
