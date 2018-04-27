@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:textStyle="bold"
-        android:text="Question 1" />
+        android:text="Question 1"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,8 +28,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:textStyle="bold"
-        android:text="Question 2" />
+        android:text="Question 2"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -44,8 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:textStyle="bold"
-        android:text="Question 3" />
+        android:text="Question 3"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -56,12 +56,12 @@
 
 
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="16dp"
-    android:layout_marginTop="16dp"
-        android:textStyle="bold"
-    android:text="Question 4" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Question 4"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -72,12 +72,12 @@
 
 
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="16dp"
-    android:layout_marginTop="16dp"
-        android:textStyle="bold"
-    android:text="Question 5" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Question 5"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -85,8 +85,6 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:text="Which of the following is NOT a game mode in 'Minecraft'?" />
-
-
 
 
 </LinearLayout>
