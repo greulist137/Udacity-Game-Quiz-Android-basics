@@ -13,11 +13,11 @@
         tools:context=".MainActivity">
 
         <EditText
+            android:id="@+id/nameEntry"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:id="@+id/nameEntry"
             android:hint="Enter Name" />
 
         <TextView
@@ -32,10 +32,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
-            android:text="Which of the following is NOT a ghost from the original Pac-Man? Inky (Winky) Blinky Clyde" />
+            android:text="Which of the following is NOT a ghost from the original Pac-Man?" />
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -48,6 +49,7 @@
                 android:text="Inky" />
 
             <RadioButton
+                android:id="@+id/Question1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Winky" />
@@ -74,9 +76,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
-            android:text="Which of the following is a genuine 'Pokémon' type? (Dark) Earth Air Light" />
+            android:text="Which of the following is a genuine 'Pokémon' type? "/>
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -84,10 +87,11 @@
             >
 
             <RadioButton
+                android:id="@+id/Question2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:text="Dark" />
+                android:text="Dark"/>
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -119,9 +123,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
-            android:text="Under what name did Mario debut in 1981's 'Donkey Kong'? Plumberman Mario Luigi (Jumpman)" />
+            android:text="Under what name did Mario debut in 1981's 'Donkey Kong'? "/>
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -146,6 +151,7 @@
                 android:text="Luigi" />
 
             <RadioButton
+                android:id="@+id/Question3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -163,9 +169,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
-            android:text="Which Nintendo console was part of the 'sixth generation' of video game consoles along with the Sony Playstation 2 and the Microsoft Xbox? Nintendo 64 Wii (Gamecube) SNES" />
+            android:text="Which Nintendo console was part of the 'sixth generation' of video game consoles along with the Sony Playstation 2 and the Microsoft Xbox?"/>
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -184,10 +191,11 @@
                 android:text="Wii" />
 
             <RadioButton
+                android:id="@+id/Question4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:text="Gamecube" />
+                android:text="Gamecube"/>
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -212,10 +220,11 @@
             android:text="Which of the following are classes in World of Warcraft?" />
 
         <CheckBox
+            android:id="@+id/Question5_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="Warrior" />
+            android:text="Warrior"/>
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -224,22 +233,24 @@
             android:text="Ninja" />
 
         <CheckBox
+            android:id="@+id/Question5_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="Monk" />
+            android:text="Monk"/>
 
         <CheckBox
+            android:id="@+id/Question5_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="Druid" />
+            android:text="Druid"/>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:id="@+id/submitButton"
-            android:layout_height="wrap_content" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
     </LinearLayout>
 </ScrollView>
