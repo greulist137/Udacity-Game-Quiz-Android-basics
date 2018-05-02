@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
+            android:id="@+id/nameEntry"
             android:hint="Enter Name" />
 
         <TextView
@@ -79,7 +80,8 @@
 
         <RadioGroup
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            >
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -232,5 +234,12 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:text="Druid" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/submitButton"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 </ScrollView>
