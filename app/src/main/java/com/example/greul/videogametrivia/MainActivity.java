@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 calculateScore();
             }
-
-
         });
 
     }
@@ -33,10 +31,13 @@ public class MainActivity extends AppCompatActivity {
     public void calculateScore(){
      EditText name = (EditText) findViewById(R.id.nameEntry);
      userName = name.getText().toString();
+     displayScore();
         
     }
 
+    //The DisplayScore method will show the users score out of total questions via a Toast Message
     public void displayScore(){
-
+        Toast displayToast = Toast.makeText(this, userName, Toast.LENGTH_LONG);
+        displayToast.show();
     }
 }
