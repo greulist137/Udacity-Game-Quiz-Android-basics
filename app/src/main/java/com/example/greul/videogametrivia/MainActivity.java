@@ -23,17 +23,17 @@ public class MainActivity extends AppCompatActivity {
                 calculateScore();
             }
         });
-
     }
 
-    int numberOfQuestions = 0;
-    int questionsCorrect = 0;
-    String userName = "";
+    private int numberOfQuestions = 5;
+    private int questionsCorrect = 0;
+    private String userName = "";
+    private String userMessage;
 
     public void calculateScore(){
      EditText name = (EditText) findViewById(R.id.nameEntry);
      userName = name.getText().toString();
-     displayScore();
+
 
         RadioButton q1 = (RadioButton) findViewById(R.id.Question1);
         RadioButton q2 = (RadioButton) findViewById(R.id.Question2);
@@ -42,12 +42,28 @@ public class MainActivity extends AppCompatActivity {
         CheckBox q5a = (CheckBox) findViewById(R.id.Question5_1);
         CheckBox q5b = (CheckBox) findViewById(R.id.Question5_2);
         CheckBox q5c = (CheckBox) findViewById(R.id.Question5_3);
+
+        if(q1.isChecked()){
+            questionsCorrect++;
+        }
+        if(q2.isChecked()){
+            questionsCorrect++;
+        }s
+        if(q3.isChecked()){
+            questionsCorrect++;
+        }
+        if(q4.isChecked()){
+            questionsCorrect++;
+        }
+
+        userMessage = userName + "\nNumber of Questions: " + numberOfQuestions + "\nNumber of Correct Answers: " + questionsCorrect;
+        displayScore();
     }
 
 
     //The DisplayScore method will show the users score out of total questions via a Toast Message
     public void displayScore(){
-        Toast displayToast = Toast.makeText(this, userName, Toast.LENGTH_LONG);
+        Toast displayToast = Toast.makeText(this, userMessage, Toast.LENGTH_LONG);
         displayToast.show();
     }
 }
