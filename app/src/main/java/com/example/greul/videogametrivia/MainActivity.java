@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if(q2.isChecked()){
             questionsCorrect++;
-        }s
+        }
         if(q3.isChecked()){
             questionsCorrect++;
         }
@@ -56,10 +56,13 @@ public class MainActivity extends AppCompatActivity {
             questionsCorrect++;
         }
 
+        if(q5a.isChecked() && q5b.isChecked() && q5c.isChecked()){
+            questionsCorrect++;
+        }
+
         userMessage = userName + "\nNumber of Questions: " + numberOfQuestions + "\nNumber of Correct Answers: " + questionsCorrect;
         displayScore();
     }
-
 
     //The DisplayScore method will show the users score out of total questions via a Toast Message
     public void displayScore(){
